@@ -1,0 +1,18 @@
+body {
+    /* light mode styles */
+    @media screen and (prefers-color-scheme: dark) {
+        p {
+          color: #fff;
+        }
+      }
+  }
+  
+  body.dark-mode {
+    /* dark mode styles */
+    @media screen and (prefers-color-scheme: light) {
+        p {
+          color: #000;
+        }
+      }
+  }
+  
